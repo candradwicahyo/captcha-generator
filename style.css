@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: royalblue;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  overflow: hidden;
+  overflow: hidden;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  padding: 30px 40px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box .wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box #input {
+  position: relative;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background: #f4f7fe;
+  text-align: center;
+}
+
+.box .input-captcha {
+  width: 50%;
+}
+
+.box .input {
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.box .btn {
+  position: relative;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  background: royalblue;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.box .btn-submit {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .container {
+    width: 85%;
+  }
+  
+}
